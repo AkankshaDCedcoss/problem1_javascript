@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculater using javascript</title>
+  </head>
+  <body>
+    <div class="main">
+      <table>
+        <tr>
+          <input type="text" name="screen" id="screen"/>
+        </tr>
+        <tr id="row1">
+          <td id="col1">
+            <button name="button1" id="button1" onclick="display('(')" value="(">(</button>
+          </td>
+          <td id="col2">
+            <button name="button1" id="button2" onclick="display(')')" value=")">)</button>
+          </td>
+          <td id="col3">
+            <button name="button1" id="button3" onclick="display('%')" value="%">%</button>
+          </td>
+          <td id="col4">
+            <button name="button1" id="button4"  onclick="clearData()" value="C">C</button>
+          </td>
+        </tr>
+        <tr id="row2">
+            <td>
+              <button name="button5" id="button5" onclick="display('7')" value="7">7</button>
+            </td>
+            <td>
+              <button name="button6" id="button6" onclick="display('8')" value="8">8</button>
+            </td>
+            <td>
+              <button name="button7" id="button7" onclick="display('9')" value="9">9</button>
+            </td>
+            <td>
+              <button name="button8" id="button8" onclick="display('/')" value="/">/</button>
+            </td>
+          </tr>
+          <tr id="row3">
+            <td>
+              <button name="button9" id="button9" onclick="display('4')" value="4">4</button>
+            </td>
+            <td>
+              <button name="button10" id="button10" onclick="display('5')" value="5">5</button>
+            </td>
+            <td>
+              <button name="button11" id="button11" onclick="display('6')" value="6">6</button>
+            </td>
+            <td>
+              <button name="button12" id="button12" onclick="display('*')" value="*">X</button>
+            </td>
+          </tr>
+          <tr id="row4">
+            <td>
+              <button name="button13" id="button13" onclick="display('1')" value="1">1</button>
+            </td>
+            <td>
+              <button name="button14" id="button14" onclick="display('2')" value="2">2</button>
+            </td>
+            <td>
+              <button name="button15" id="button15"  onclick="display('3')" value="3">3</button>
+            </td>
+            <td>
+              <button name="button16" id="button16"  onclick="display('-')" value="-">-</button>
+            </td>
+          </tr>
+          <tr id="row5">
+            <td>
+              <button name="button17" id="button17" onclick="display('0')" value="0">0</button>
+            </td>
+            <td>
+              <button name="button18" id="button18" onclick="display('.')" value=".">.</button>
+            </td>
+            <td>
+              <button name="button19" id="button19"  onclick="result()" value="=">=</button>
+            </td>
+            <td>
+              <button name="button20" id="button20" onclick="display('+')" value="+">+</button>
+            </td>
+          </tr>
+      </table>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

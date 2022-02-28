@@ -1,0 +1,53 @@
+
+body{
+
+background-color: wheat;
+}
+.main
+{
+    margin-left: 400px;
+    margin-top: 100px;
+   
+}
+.main input[type="text"]
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: wheat;
+    text-align: right;
+
+
+}
+.main button
+{
+    width: 130px;
+    height: 70px;
+    font-size: 40px;
+    background-color: black;
+    color: wheat;
+}
+table
+{
+    background: black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#button1,#button2,#button3
+{
+    background-color: green;
+}
+#button4,#button8,#button12,#button20,#button16
+{
+    background-color:rgb(230, 167, 8)
+}
+#button19,#button17
+{
+     background-color:red;
+
+}
